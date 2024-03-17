@@ -23,8 +23,8 @@ function draw() {
   ufo(x, y, d, r); // call the ufo() function (see below)
   
   // add code here to change the ship location each frame
-  
-  
+  x += 1; // add one to the value of x each frame
+  r += -.02; // add .01 to the value of r each frame
 }
 
 function ufo(tempX, tempY, tempD, tempR){
